@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Career Week</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Background Music -->
+<audio id="bg-music" autoplay loop>
+  <source src="music.mp3" type="audio/mpeg" />
+</audio>
+
+<div class="rays"></div>
+<canvas id="fireworksCanvas"></canvas>
+<!-- Left fading images -->
+<div class="left-slideshow">
+    <img src="left1.jpg" class="slide active">
+    <img src="left2.jpg" class="slide">
+    <img src="left4.jpg" class="slide">
+</div>
+
+
+<div class="container">
+    <button id="music-btn">▶ Play Music</button>
+
+  <h1>ALL ARE WELCOME TO CAREER WEEK</h1>
+
+  <div class="profile-wrapper">
+    <img src="namee.jpeg" alt="Profile Picture" class="profile-pic" />
+    <div class="name">Erick Monyancha</div>
+    <div class="group">Group C</div>
+  </div>
+
+  <div class="slogans">
+    <div class="slogan fade1">DON'T MISS OUT</div>
+    <div class="slogan fade2">OPPORTUNITY COMES ONCE</div>
+    <div class="slogan fade3">IT IS BETTER TO CREATE OPPORTUNITIES THAN WAIT</div>
+  </div>
+
+  <div class="timer">
+    <div class="time-box"><span id="days">0</span><div class="label">Days</div></div>
+    <div class="time-box"><span id="hours">0</span><div class="label">Hours</div></div>
+    <div class="time-box"><span id="minutes">0</span><div class="label">Minutes</div></div>
+    <div class="time-box"><span id="seconds">0</span><div class="label">Seconds</div></div>
+    <div class="time-box micro"><span id="microseconds">000000</span><div class="label">Microseconds</div></div>
+  </div>
+
+  <footer>Countdown to Saturday 00:00</footer>
+</div>
+<div class="fireworks"></div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
